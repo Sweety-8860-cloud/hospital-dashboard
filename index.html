@@ -1,0 +1,160 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospital Management Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+      * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: 'Poppins', sans-serif;
+      }body {
+      background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+      color: #333;
+      padding: 20px;
+  }
+
+  header {
+      text-align: center;
+      background-color: #003366;
+      color: #fff;
+      padding: 25px;
+      border-radius: 10px;
+      font-size: 1.8rem;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  section {
+      margin-bottom: 40px;
+  }
+
+  h2 {
+      text-align: center;
+      color: #003366;
+      margin-bottom: 20px;
+      font-size: 1.5rem;
+  }
+
+  .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+  }
+
+  .card {
+      background-color: #ffffff;
+      border-radius: 15px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 240px;
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+  }
+
+  .card i {
+      font-size: 30px;
+      margin-bottom: 10px;
+      color: #003366;
+  }
+
+  .card-title {
+      font-weight: 600;
+      font-size: 18px;
+      margin-bottom: 5px;
+  }
+
+  .card-text {
+      font-size: 14px;
+      color: #555;
+  }
+</style>
+
+</head><body>
+  <header>Hospital Management Dashboard</header><section>
+  <h2>Patient Dashboard</h2>
+  <div class="card-container">
+      <div class="card">
+          <i class="fas fa-notes-medical"></i>
+          <div class="card-title">Patient Records</div>
+          <div class="card-text">View & manage patient details and EHRs</div>
+      </div>
+      <div class="card">
+          <i class="fas fa-calendar-check"></i>
+          <div class="card-title">Appointments</div>
+          <div class="card-text">Track appointments, no-shows, and reminders</div>
+      </div>
+      <div class="card">
+          <i class="fas fa-door-open"></i>
+          <div class="card-title">Admission/Discharge</div>
+          <div class="card-text">Manage admissions, room assignments, discharges</div>
+      </div>
+      <div class="card">
+          <i class="fas fa-envelope"></i>
+          <div class="card-title">Communication</div>
+          <div class="card-text">Send SMS or email alerts to patients</div>
+      </div>
+  </div>
+</section>
+
+<section>
+  <h2>Staff Dashboard</h2>
+  <div class="card-container">
+      <div class="card">
+          <i class="fas fa-users"></i>
+          <div class="card-title">Staff Roster</div>
+          <div class="card-text">View schedules and department assignments</div>
+      </div>
+      <div class="card">
+          <i class="fas fa-user-check"></i>
+          <div class="card-title">Attendance Tracking</div>
+          <div class="card-text">Track check-ins, leaves, and monthly reports</div>
+      </div>
+      <div class="card">
+          <i class="fas fa-network-wired"></i>
+          <div class="card-title">Department Overview</div>
+          <div class="card-text">Monitor workload and staffing needs</div>
+      </div>
+      <div class="card">
+          <i class="fas fa-bell"></i>
+          <div class="card-title">Notifications</div>
+          <div class="card-text">Alerts for shift changes and approvals</div>
+      </div>
+  </div>
+</section>
+
+<section>
+  <h2>Financial Dashboard</h2>
+  <div class="card-container">
+      <div class="card">
+          <i class="fas fa-file-invoice-dollar"></i>
+          <div class="card-title">Billing Overview</div>
+          <div class="card-text">Daily/monthly bills, payments, and pending</div>
+      </div>
+      <div class="card">
+          <i class="fas fa-shield-alt"></i>
+          <div class="card-title">Insurance Claims</div>
+          <div class="card-text">Track submitted, approved, or rejected claims</div>
+      </div>
+      <div class="card">
+          <i class="fas fa-chart-line"></i>
+          <div class="card-title">Revenue Trends</div>
+          <div class="card-text">Visualize income over weeks/months</div>
+      </div>
+      <div class="card">
+          <i class="fas fa-exclamation-triangle"></i>
+          <div class="card-title">Overdue Payments</div>
+          <div class="card-text">Alerts when bills cross due dates</div>
+      </div>
+  </div>
+</section>
+
+</body></html>
